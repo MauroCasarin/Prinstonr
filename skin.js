@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: PRINSTON.ggsk
-// Generated 2025-11-20T10:57:09
+// Generated 2025-11-20T11:08:44
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_video_file', 2, false);
@@ -1712,7 +1712,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.openUrl("https:\/\/drive.google.com\/file\/d\/1nSjYKXqJ4CTgLotbc6jU4gWIwmANGnrF\/view","_blank");
 			}
-			skin._dropdown_menu_title_background.onclick.call(skin._dropdown_menu_title_background);
+			player.openUrl("https:\/\/drive.google.com\/file\/d\/1nSjYKXqJ4CTgLotbc6jU4gWIwmANGnrF\/view","_blank");
 		}
 		me._dropdown_menu_text0.onmouseover=function (e) {
 			me.elementMouseOver['dropdown_menu_text0']=true;
@@ -1920,7 +1920,7 @@ function pano2vrSkin(player,base) {
 			) {
 				player.openUrl("https:\/\/drive.google.com\/file\/d\/1Vl--dQipw0HeLMQJo3JFLEbtA61jPRWB\/view","_blank");
 			}
-			skin._dropdown_menu_title_background.onclick.call(skin._dropdown_menu_title_background);
+			player.openUrl("https:\/\/drive.google.com\/file\/d\/1Vl--dQipw0HeLMQJo3JFLEbtA61jPRWB\/view","_blank");
 		}
 		me._dropdown_menu_text.onmouseover=function (e) {
 			me.elementMouseOver['dropdown_menu_text']=true;
