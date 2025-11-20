@@ -22,7 +22,10 @@
       <polystring>-10.34/-27.81|-36.21/-27.84|-35.8/-34.08|-9.92/-33.55</polystring>
     </polyhotspot>
     <polyhotspot title="" url="https://www.instagram.com/cerveceriaprinston/" target="_blank" id="Poly02" description="">
-      <polystring>-141.3/-30.8|-174.91/-30.77|-175.46/-33.53|-140.93/-33.64</polystring>
+      <polystring>-140.6/-30.52|-174.91/-30.77|-175.15/-34.27|-140.93/-33.64</polystring>
+    </polyhotspot>
+    <polyhotspot title="" url="https://www.instagram.com/lafenicevermouth/" target="_blank" id="Poly03" description="">
+      <polystring>-147.92/30.45|-147.92/16.77|-166.6/16.89|-166.27/31.04</polystring>
     </polyhotspot>
   </hotspots>
   <media>
@@ -35,10 +38,13 @@
     <video clickmode="0" rotx="4.000" stretch="1.000" level="1.000" id="Element05" rotz="0.000" tiltsize="10.000" nodechangekeep="0" handcursor="0" width="1080" loop="0" height="656" roty="0.000" tilt="5.850" pansize="10.000" startmutedmobile="0" mode="3" ambientlevel="0.000" pan="-67.400" field="90.000" fov="43.060">
       <source url="media/HAPPY.mp4"/>
     </video>
-    <image handcursor="0" rotx="11.000" pan="-10.530" width="50" height="50" clickmode="0" rotz="135.000" stretch="1.000" tilt="-28.760" fov="5.708" roty="-4.000" id="Element03">
+    <image handcursor="0" rotx="11.000" pan="-11.530" width="50" height="50" clickmode="0" rotz="135.000" stretch="1.000" tilt="-29.060" fov="2.310" roty="-4.000" id="Element03">
       <source url="media/Dedo clic.svg"/>
     </image>
-    <image handcursor="0" rotx="-21.000" pan="-141.870" width="50" height="50" clickmode="0" rotz="144.000" stretch="1.000" tilt="-30.300" fov="5.951" roty="0.000" id="Element04">
+    <image handcursor="0" rotx="-21.000" pan="-142.330" width="50" height="50" clickmode="0" rotz="144.000" stretch="1.000" tilt="-31.300" fov="2.310" roty="0.000" id="Element04">
+      <source url="media/Dedo clic.svg"/>
+    </image>
+    <image handcursor="0" rotx="9.000" pan="-157.890" width="50" height="50" clickmode="0" rotz="-25.000" stretch="1.000" tilt="17.280" fov="2.310" roty="0.000" id="Element06">
       <source url="media/Dedo clic.svg"/>
     </image>
     <lensflare type="9" pan="-313.190" alpha="80.000" color="0xffffff" tilt="30.450" id="Lensflare01" blinding="50.000"/>

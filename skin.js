@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: 360 Gyroscopio.ggsk
-// Generated 2025-11-20T09:54:21
+// Generated 2025-11-20T10:04:03
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_video_file', 2, false);
