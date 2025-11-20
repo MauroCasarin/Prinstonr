@@ -32,7 +32,7 @@
     <video clickmode="0" rotx="12.000" stretch="1.000" level="1.000" id="Element01" rotz="0.000" tiltsize="10.000" nodechangekeep="0" handcursor="0" width="640" loop="0" height="640" roty="0.000" tilt="24.890" pansize="10.000" startmutedmobile="0" mode="3" ambientlevel="0.000" pan="-140.870" field="90.000" fov="9.840">
       <source url="media/AnimAve.mp4"/>
     </video>
-    <video clickmode="0" rotx="0.000" stretch="1.000" level="1.000" id="Element05" rotz="0.000" tiltsize="10.000" nodechangekeep="0" handcursor="0" width="1080" loop="0" height="1920" roty="0.000" tilt="0.000" pansize="10.000" startmutedmobile="0" mode="3" ambientlevel="0.000" pan="-67.840" field="90.000" fov="43.060">
+    <video clickmode="0" rotx="4.000" stretch="1.000" level="1.000" id="Element05" rotz="0.000" tiltsize="10.000" nodechangekeep="0" handcursor="0" width="1080" loop="0" height="656" roty="0.000" tilt="5.850" pansize="10.000" startmutedmobile="0" mode="3" ambientlevel="0.000" pan="-67.400" field="90.000" fov="43.060">
       <source url="media/HAPPY.mp4"/>
     </video>
     <image handcursor="0" rotx="11.000" pan="-10.530" width="50" height="50" clickmode="0" rotz="135.000" stretch="1.000" tilt="-28.760" fov="5.708" roty="-4.000" id="Element03">
