@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama hideabout="1" appversion="6.1.13" apprev="18080" id="node1">
-  <input levelingpitch="0" leveltilesize="510" height="4500" width="4500" overlap="1" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
-    <level preload="0" predecode="0" height="4500" width="4500"/>
-    <level preload="0" predecode="0" height="2250" width="2250"/>
-    <level preload="0" predecode="0" height="1125" width="1125"/>
-    <level preload="0" predecode="0" height="562" width="562"/>
-    <level preload="1" predecode="1" height="281" width="281"/>
-    <preview strip="1" color="0x808080"/>
+<panorama apprev="18080" id="node1" hideabout="1" appversion="6.1.13">
+  <input width="4500" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="1.000" levelingpitch="0" height="4500" levelbias="0.400" leveltilesize="510" levelingroll="0">
+    <level width="4500" predecode="0" height="4500" preload="0"/>
+    <level width="2250" predecode="0" height="2250" preload="0"/>
+    <level width="1125" predecode="0" height="1125" preload="0"/>
+    <level width="562" predecode="0" height="562" preload="0"/>
+    <level width="281" predecode="1" height="281" preload="1"/>
+    <preview color="0x808080" strip="1"/>
   </input>
   <view fovmode="0" pannorth="0">
-    <start projection="4" pan="66.3195" fov="69.8372" tilt="2.04108e-05"/>
-    <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-    <min pan="-180" tilt="-40.1525" fovpixel="2"/>
-    <max fovstereographic="270" pan="180" fov="120" fovfisheye="360" tilt="40.1525"/>
+    <start fov="69.8372" projection="4" tilt="2.04108e-05" pan="66.3195"/>
+    <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+    <min tilt="-40.1525" pan="-180" fovpixel="2"/>
+    <max fov="120" tilt="40.1525" pan="180" fovstereographic="270" fovfisheye="360"/>
   </view>
-  <userdata source="" latitude="" info="" customnodeid="" title="bebidas ramos 2025-4" copyright="" comment="" description="" tags="Carta prinston" author="LuciaM" nodeid="node1" longitude="" datetime="19/11/2025 14:59" heading="0"/>
-  <hotspots height="20" width="180" wordwrap="1">
-    <label backgroundalpha="1" enabled="1" height="20" borderalpha="1" borderradius="1" width="180" textalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" background="1" bordercolor="0x000000" border="1"/>
-    <polystyle backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-    <polyhotspot title="" url="https://www.google.com/maps/place/Prinston+Ramos/@-34.6427836,-58.5622879,17z/data=!4m6!3m5!1s0x95bcc7e448b11e51:0x80087ce2b726b76e!8m2!3d-34.6427836!4d-58.5622879!16s%2Fg%2F11cjj458rz?entry=ttu&amp;g_ep=EgoyMDI1MTExNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" description="" id="Poly01">
+  <userdata datetime="19/11/2025 14:59" info="" author="LuciaM" heading="0" comment="" nodeid="node1" description="" copyright="" source="" tags="Carta prinston" longitude="" title="bebidas ramos 2025-4" customnodeid="" latitude=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label borderradius="1" enabled="1" width="180" textalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" background="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1"/>
+    <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098"/>
+    <polyhotspot target="_blank" id="Poly01" description="" url="https://www.google.com/maps/place/Prinston+Ramos/@-34.6427836,-58.5622879,17z/data=!4m6!3m5!1s0x95bcc7e448b11e51:0x80087ce2b726b76e!8m2!3d-34.6427836!4d-58.5622879!16s%2Fg%2F11cjj458rz?entry=ttu&amp;g_ep=EgoyMDI1MTExNi4wIKXMDSoASAFQAw%3D%3D" title="">
       <polystring>-10.34/-27.81|-36.21/-27.84|-35.8/-34.08|-9.92/-33.55</polystring>
     </polyhotspot>
-    <polyhotspot title="" url="https://www.instagram.com/cerveceriaprinston/" target="_blank" description="" id="Poly02">
+    <polyhotspot target="_blank" id="Poly02" description="" url="https://www.instagram.com/cerveceriaprinston/" title="">
       <polystring>-140.6/-30.52|-174.91/-30.77|-175.15/-34.27|-140.93/-33.64</polystring>
     </polyhotspot>
-    <polyhotspot title="" url="https://www.instagram.com/lafenicevermouth/" target="_blank" description="" id="Poly03">
+    <polyhotspot target="_blank" id="Poly03" description="" url="https://www.instagram.com/lafenicevermouth/" title="">
       <polystring>-147.92/30.45|-147.92/16.77|-166.6/16.89|-166.27/31.04</polystring>
     </polyhotspot>
   </hotspots>
   <media>
-    <video pan="-67.540" stretch="1.000" rotx="4.000" tilt="5.920" height="650" rotz="0.000" mode="3" clickmode="0" handcursor="0" pansize="10.000" nodechangekeep="0" width="980" tiltsize="10.000" fov="39.860" id="Element05" loop="0" level="1.000" field="90.000" roty="0.000" startmutedmobile="0" ambientlevel="0.000">
+    <video rotz="0.000" clickmode="0" stretch="1.000" ambientlevel="0.000" rotx="4.000" pansize="10.000" field="90.000" roty="0.000" level="1.000" width="980" handcursor="0" startmutedmobile="0" pan="-67.540" nodechangekeep="0" tiltsize="10.000" height="650" tilt="5.920" id="Element05" fov="39.860" loop="0" mode="3">
       <source url="media/HAPPY.mp4"/>
     </video>
-    <video pan="-136.880" stretch="1.000" rotx="0.000" tilt="0.160" height="144" rotz="-90.000" mode="3" clickmode="0" handcursor="0" pansize="10.000" nodechangekeep="0" width="640" tiltsize="10.000" fov="36.895" id="Element09" loop="0" level="1.000" field="90.000" roty="0.000" startmutedmobile="0" ambientlevel="0.000">
+    <video rotz="-90.000" clickmode="0" stretch="1.000" ambientlevel="0.000" rotx="0.000" pansize="10.000" field="90.000" roty="0.000" level="1.000" width="640" handcursor="0" startmutedmobile="0" pan="-136.880" nodechangekeep="0" tiltsize="10.000" height="144" tilt="0.160" id="Element09" fov="36.895" loop="0" mode="3">
       <source url="media/Linea.mp4"/>
     </video>
-    <video pan="-338.410" stretch="1.000" rotx="-17.000" tilt="-19.860" height="144" rotz="0.000" mode="3" clickmode="0" handcursor="0" pansize="10.000" nodechangekeep="0" width="640" tiltsize="10.000" fov="30.000" id="Element10" loop="0" level="1.000" field="90.000" roty="-1.000" startmutedmobile="0" ambientlevel="0.000">
+    <video rotz="0.000" clickmode="0" stretch="1.000" ambientlevel="0.000" rotx="-17.000" pansize="10.000" field="90.000" roty="-1.000" level="1.000" width="640" handcursor="0" startmutedmobile="0" pan="-338.410" nodechangekeep="0" tiltsize="10.000" height="144" tilt="-19.860" id="Element10" fov="30.000" loop="0" mode="3">
       <source url="media/Linea.mp4"/>
     </video>
-    <video pan="-301.540" stretch="1.000" rotx="0.000" tilt="-8.920" height="144" rotz="0.000" mode="3" clickmode="0" handcursor="0" pansize="10.000" nodechangekeep="0" width="640" tiltsize="10.000" fov="13.890" id="Element11" loop="0" level="1.000" field="90.000" roty="0.000" startmutedmobile="0" ambientlevel="0.000">
+    <video rotz="0.000" clickmode="0" stretch="1.000" ambientlevel="0.000" rotx="0.000" pansize="10.000" field="90.000" roty="0.000" level="1.000" width="640" handcursor="0" startmutedmobile="0" pan="-301.540" nodechangekeep="0" tiltsize="10.000" height="144" tilt="-8.920" id="Element11" fov="13.890" loop="0" mode="3">
       <source url="media/Linea.mp4"/>
     </video>
-    <video pan="-283.700" stretch="1.000" rotx="23.000" tilt="32.070" height="300" rotz="0.000" mode="3" clickmode="0" handcursor="0" pansize="10.000" nodechangekeep="0" width="400" tiltsize="10.000" fov="8.210" id="Element12" loop="0" level="1.000" field="90.000" roty="1.000" startmutedmobile="0" ambientlevel="0.000">
+    <video rotz="0.000" clickmode="0" stretch="1.000" ambientlevel="0.000" rotx="23.000" pansize="10.000" field="90.000" roty="1.000" level="1.000" width="400" handcursor="0" startmutedmobile="0" pan="-283.700" nodechangekeep="0" tiltsize="10.000" height="300" tilt="32.070" id="Element12" fov="8.210" loop="0" mode="3">
       <source url="media/BIRRA Anim.mp4"/>
     </video>
-    <video pan="-194.870" stretch="1.000" rotx="24.000" tilt="31.560" height="300" rotz="0.000" mode="3" clickmode="0" handcursor="0" pansize="10.000" nodechangekeep="0" width="400" tiltsize="10.000" fov="7.460" id="Element13" loop="0" level="1.000" field="90.000" roty="0.000" startmutedmobile="0" ambientlevel="0.000">
+    <video rotz="0.000" clickmode="0" stretch="1.000" ambientlevel="0.000" rotx="24.000" pansize="10.000" field="90.000" roty="0.000" level="1.000" width="400" handcursor="0" startmutedmobile="0" pan="-194.870" nodechangekeep="0" tiltsize="10.000" height="300" tilt="31.560" id="Element13" fov="7.460" loop="0" mode="3">
       <source url="media/BIRRA Anim.mp4"/>
     </video>
-    <video pan="-277.810" stretch="1.000" rotx="0.000" tilt="-5.560" height="200" rotz="0.000" mode="3" clickmode="0" handcursor="0" pansize="10.000" nodechangekeep="0" width="400" tiltsize="10.000" fov="10.000" id="Element14" loop="0" level="1.000" field="90.000" roty="0.000" startmutedmobile="0" ambientlevel="0.000">
+    <video rotz="0.000" clickmode="0" stretch="1.000" ambientlevel="0.000" rotx="0.000" pansize="10.000" field="90.000" roty="0.000" level="1.000" width="400" handcursor="0" startmutedmobile="0" pan="-277.810" nodechangekeep="0" tiltsize="10.000" height="200" tilt="-5.560" id="Element14" fov="10.000" loop="0" mode="3">
       <source url="media/Clasicas.mp4"/>
     </video>
-    <video pan="-189.660" stretch="1.000" rotx="0.000" tilt="-10.560" height="200" rotz="0.000" mode="3" clickmode="0" handcursor="0" pansize="10.000" nodechangekeep="0" width="400" tiltsize="10.000" fov="13.000" id="Element15" loop="0" level="1.000" field="90.000" roty="0.000" startmutedmobile="0" ambientlevel="0.000">
+    <video rotz="0.000" clickmode="0" stretch="1.000" ambientlevel="0.000" rotx="0.000" pansize="10.000" field="90.000" roty="0.000" level="1.000" width="400" handcursor="0" startmutedmobile="0" pan="-189.660" nodechangekeep="0" tiltsize="10.000" height="200" tilt="-10.560" id="Element15" fov="13.000" loop="0" mode="3">
       <source url="media/Clasicas.mp4"/>
     </video>
-    <video pan="-142.670" stretch="1.000" rotx="18.000" tilt="25.130" height="200" rotz="0.000" mode="3" clickmode="0" handcursor="0" pansize="10.000" nodechangekeep="0" width="200" tiltsize="10.000" fov="10.000" id="Element02" loop="0" level="1.000" field="90.000" roty="0.000" startmutedmobile="0" ambientlevel="0.000">
+    <video rotz="0.000" clickmode="0" stretch="1.000" ambientlevel="0.000" rotx="18.000" pansize="10.000" field="90.000" roty="0.000" level="1.000" width="200" handcursor="0" startmutedmobile="0" pan="-142.670" nodechangekeep="0" tiltsize="10.000" height="200" tilt="25.130" id="Element02" fov="10.000" loop="0" mode="3">
       <source url="media/AnimAve200.mp4"/>
     </video>
-    <video pan="-172.650" stretch="1.000" rotx="18.000" tilt="24.960" height="200" rotz="0.000" mode="3" clickmode="0" handcursor="0" pansize="10.000" nodechangekeep="0" width="200" tiltsize="10.000" fov="10.000" id="Element01" loop="0" level="1.000" field="90.000" roty="0.000" startmutedmobile="0" ambientlevel="0.000">
+    <video rotz="0.000" clickmode="0" stretch="1.000" ambientlevel="0.000" rotx="18.000" pansize="10.000" field="90.000" roty="0.000" level="1.000" width="200" handcursor="0" startmutedmobile="0" pan="-172.650" nodechangekeep="0" tiltsize="10.000" height="200" tilt="24.960" id="Element01" fov="10.000" loop="0" mode="3">
       <source url="media/AnimAve200.mp4"/>
     </video>
-    <video pan="-337.150" stretch="1.000" rotx="18.000" tilt="28.950" height="400" rotz="0.000" mode="3" clickmode="0" handcursor="0" pansize="10.000" nodechangekeep="0" width="400" tiltsize="10.000" fov="13.000" id="Element07" loop="0" level="1.000" field="90.000" roty="0.000" startmutedmobile="0" ambientlevel="0.000">
+    <video rotz="0.000" clickmode="0" stretch="1.000" ambientlevel="0.000" rotx="18.000" pansize="10.000" field="90.000" roty="0.000" level="1.000" width="400" handcursor="0" startmutedmobile="0" pan="-337.150" nodechangekeep="0" tiltsize="10.000" height="400" tilt="28.950" id="Element07" fov="13.000" loop="0" mode="3">
       <source url="media/Recarga400.mp4"/>
     </video>
-    <video pan="-112.440" stretch="1.000" rotx="21.000" tilt="27.630" height="200" rotz="0.000" mode="3" clickmode="0" handcursor="0" pansize="10.000" nodechangekeep="0" width="400" tiltsize="10.000" fov="15.000" id="Element08" loop="0" level="1.000" field="90.000" roty="0.000" startmutedmobile="0" ambientlevel="0.000">
+    <video rotz="0.000" clickmode="0" stretch="1.000" ambientlevel="0.000" rotx="21.000" pansize="10.000" field="90.000" roty="0.000" level="1.000" width="400" handcursor="0" startmutedmobile="0" pan="-112.440" nodechangekeep="0" tiltsize="10.000" height="200" tilt="27.630" id="Element08" fov="15.000" loop="0" mode="3">
       <source url="media/Tragos.mp4"/>
     </video>
-    <video pan="-22.460" stretch="1.000" rotx="20.000" tilt="28.550" height="300" rotz="0.000" mode="3" clickmode="0" handcursor="0" pansize="10.000" maskimage="media/PrinstLOG-mask.png" nodechangekeep="0" width="500" tiltsize="10.000" fov="16.400" id="Element16" loop="0" level="1.000" field="90.000" roty="0.000" startmutedmobile="0" ambientlevel="0.000">
+    <video rotz="0.000" maskimage="media/PrinstLOG-mask.png" clickmode="0" stretch="1.000" ambientlevel="0.000" rotx="20.000" pansize="10.000" field="90.000" roty="0.000" level="1.000" width="500" handcursor="0" startmutedmobile="0" pan="-22.460" nodechangekeep="0" tiltsize="10.000" height="300" tilt="28.550" id="Element16" fov="16.400" loop="0" mode="3">
       <source url="media/PrinstLOG.mp4"/>
     </video>
-    <image rotz="135.000" clickmode="0" rotx="11.000" height="50" handcursor="0" width="50" roty="-4.000" pan="-11.530" fov="2.310" stretch="1.000" id="Element03" tilt="-29.060">
+    <image fov="2.310" clickmode="0" rotz="135.000" tilt="-29.060" roty="-4.000" width="50" id="Element03" pan="-11.530" stretch="1.000" rotx="11.000" height="50" handcursor="0">
       <source url="media/Dedo clic.svg"/>
     </image>
-    <image rotz="144.000" clickmode="0" rotx="-21.000" height="50" handcursor="0" width="50" roty="0.000" pan="-142.330" fov="2.310" stretch="1.000" id="Element04" tilt="-31.300">
+    <image fov="2.310" clickmode="0" rotz="144.000" tilt="-31.300" roty="0.000" width="50" id="Element04" pan="-142.330" stretch="1.000" rotx="-21.000" height="50" handcursor="0">
       <source url="media/Dedo clic.svg"/>
     </image>
-    <image rotz="-25.000" clickmode="0" rotx="9.000" height="50" handcursor="0" width="50" roty="0.000" pan="-157.890" fov="2.310" stretch="1.000" id="Element06" tilt="17.280">
+    <image fov="2.310" clickmode="0" rotz="-25.000" tilt="17.280" roty="0.000" width="50" id="Element06" pan="-157.890" stretch="1.000" rotx="9.000" height="50" handcursor="0">
       <source url="media/Dedo clic.svg"/>
     </image>
   </media>
-  <transition softedge="0" zoomafteroutfov="20" enabled="0" type="crossdissolve" zoomout="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" blendcolor="0x000000" zoomin="0" blendtime="1" zoomfov="20"/>
+  <transition blendtime="1" enabled="0" zoomspeed="2" blendcolor="0x000000" softedge="0" zoomfov="20" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomafterinfov="90" zoomin="0"/>
   <flyintransition enabled="1" speed="3.00"/>
-  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-  <control lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" contextvr="1" contextfullscreen="1" contextprojections="1" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" hideabout="1" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" rubberband="0"/>
+  <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+  <control lockedwheel="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" rubberband="0" lockedkeyboard="0" speedwheel="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="1" lockedmouse="0" contextprojections="1" sensitivity="8" invertwheel="0"/>
 </panorama>
