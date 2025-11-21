@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: PRINSTON.ggsk
-// Generated 2025-11-21T15:45:21
+// Generated 2025-11-21T15:58:41
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_video_file', 2, false);
@@ -130,12 +130,12 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='bottom : 43px;';
-		hs+='height : 31px;';
+		hs+='bottom : 46px;';
+		hs+='height : 1px;';
 		hs+='position : absolute;';
-		hs+='right : 37px;';
+		hs+='right : 39px;';
 		hs+='visibility : inherit;';
-		hs+='width : 19px;';
+		hs+='width : 1px;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -211,13 +211,13 @@ function pano2vrSkin(player,base) {
 		el.ggType='svg';
 		hs ='';
 		hs+='cursor : pointer;';
-		hs+='height : 70px;';
+		hs+='height : 38px;';
 		hs+='left : 0px;';
 		hs+='opacity : 0;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : hidden;';
-		hs+='width : 70px;';
+		hs+='width : 38px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -329,13 +329,13 @@ function pano2vrSkin(player,base) {
 		el.ggType='svg';
 		hs ='';
 		hs+='cursor : pointer;';
-		hs+='height : 70px;';
+		hs+='height : 38px;';
 		hs+='left : 0px;';
 		hs+='opacity : 0;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : hidden;';
-		hs+='width : 70px;';
+		hs+='width : 38px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -594,7 +594,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_button ";
 		el.ggType='button';
 		hs ='';
-		hs+='bottom : 7px;';
+		hs+='bottom : 9px;';
 		hs+='cursor : pointer;';
 		hs+='height : 38px;';
 		hs+='left : -10000px;';
@@ -663,7 +663,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_button ";
 		el.ggType='button';
 		hs ='';
-		hs+='bottom : 7px;';
+		hs+='bottom : 9px;';
 		hs+='cursor : pointer;';
 		hs+='height : 38px;';
 		hs+='left : -10000px;';
@@ -729,7 +729,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_button ";
 		el.ggType='button';
 		hs ='';
-		hs+='bottom : 7px;';
+		hs+='bottom : 9px;';
 		hs+='cursor : pointer;';
 		hs+='height : 38px;';
 		hs+='left : -10000px;';
