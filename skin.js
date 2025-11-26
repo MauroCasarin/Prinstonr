@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: PRINSTON.ggsk
-// Generated 2025-11-25T13:45:26
+// Generated 2025-11-26T14:24:20
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_video_file', 2, false);
@@ -416,7 +416,7 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		me._productos.onclick=function (e) {
-			player.openUrl("https:\/\/maurocasarin.github.io\/Prinstonr\/\/Nuesttros%20productos\/index.html","_blank");
+			player.openUrl("https:\/\/maurocasarin.github.io\/Prinstonr\/\/Nuesttros%20productos\/index.html","_self");
 		}
 		me._productos.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
@@ -480,7 +480,7 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		me._bebidas.onclick=function (e) {
-			player.openUrl("https:\/\/maurocasarin.github.io\/Prinstonr\/","_blank");
+			player.openUrl("https:\/\/maurocasarin.github.io\/Prinstonr\/","_self");
 		}
 		me._bebidas.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
