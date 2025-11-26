@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: PRINSTON.ggsk
-// Generated 2025-11-26T14:30:19
+// Generated 2025-11-26T16:11:12
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_video_file', 2, false);
