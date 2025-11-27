@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama appversion="6.1.13" id="node1" apprev="18080">
-  <input width="3313" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="3313">
-    <level width="3313" preload="0" predecode="0" height="3313"/>
-    <level width="1656" preload="0" predecode="0" height="1656"/>
-    <level width="828" preload="0" predecode="0" height="828"/>
-    <level width="414" preload="1" predecode="1" height="414"/>
-    <preview strip="1" color="0x808080"/>
+<panorama appversion="6.1.13" id="node1" hideabout="1" apprev="18080">
+  <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="3313" levelbiashidpi="1.000" levelbias="0.400" overlap="1" levelingroll="0" height="3313" leveltilesize="510">
+    <level width="3313" height="3313" predecode="0" preload="0"/>
+    <level width="1656" height="1656" predecode="0" preload="0"/>
+    <level width="828" height="828" predecode="0" preload="0"/>
+    <level width="414" height="414" predecode="1" preload="1"/>
+    <preview color="0x808080" strip="1"/>
   </input>
-  <view fovmode="0" pannorth="0">
-    <start pan="165.464" fov="47.418" tilt="20.8373" projection="4"/>
-    <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-    <min fovpixel="2" pan="-180" tilt="-44.5401"/>
-    <max pan="180" fov="120" tilt="44.5401" fovstereographic="270" fovfisheye="360"/>
+  <view pannorth="0" fovmode="0">
+    <start tilt="20.8373" pan="165.464" projection="4" fov="47.418"/>
+    <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+    <min tilt="-44.5401" fovpixel="2" pan="-180"/>
+    <max tilt="44.5401" fovfisheye="360" fovstereographic="270" pan="180" fov="120"/>
   </view>
-  <userdata source="" tags="Nuesttros productos" info="" latitude="" description="" datetime="21/11/2025 16:55" author="" longitude="" nodeid="node1" title="Nuesttros productos" copyright="" comment="" heading="0" customnodeid=""/>
-  <hotspots width="180" wordwrap="1" height="20">
-    <label width="180" borderalpha="1" border="1" wordwrap="1" textcolor="0x000000" textalpha="1" borderradius="1" height="20" background="1" backgroundalpha="1" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000"/>
-    <polystyle borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-    <polyhotspot description="" id="Poly01" url="https://api.whatsapp.com/send/?phone=1526597702&amp;text&amp;app_absent=0" title="" target="_blank">
+  <userdata author="" longitude="" heading="0" customnodeid="" source="" copyright="" latitude="" description="" info="" title="Nuesttros productos" datetime="21/11/2025 16:55" tags="Nuesttros productos" comment="" nodeid="node1"/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label width="180" textalpha="1" textcolor="0x000000" borderalpha="1" enabled="1" background="1" bordercolor="0x000000" height="20" border="1" borderradius="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1"/>
+    <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
+    <polyhotspot description="" title="" url="https://api.whatsapp.com/send/?phone=1526597702&amp;text&amp;app_absent=0" id="Poly01" target="_blank">
       <polystring>-189.89/-23.88|-189.97/-25.9|-199.69/-25.97|-199.51/-23.99</polystring>
     </polyhotspot>
   </hotspots>
   <media>
-    <image width="50" stretch="1.000" handcursor="0" rotz="-47.000" clickmode="0" id="Element01" pan="-199.590" fov="2.000" tilt="-25.190" height="50" rotx="0.000" roty="0.000">
+    <image width="50" tilt="-25.190" stretch="1.000" height="50" clickmode="0" rotx="0.000" roty="0.000" handcursor="0" id="Element01" pan="-199.590" rotz="-47.000" fov="2.000">
       <source url="media/Dedo clic.svg"/>
     </image>
-    <video stretch="1.000" id="Element03" fov="8.870" level="1.000" mode="3" ambientlevel="0.000" tiltsize="10.000" nodechangekeep="0" pansize="10.000" handcursor="0" clickmode="0" pan="-194.610" width="300" field="90.000" rotz="0.000" tilt="35.900" height="300" startmutedmobile="0" loop="0" rotx="29.000" roty="0.000">
+    <video id="Element03" rotx="29.000" width="300" ambientlevel="0.000" tiltsize="10.000" pansize="10.000" nodechangekeep="0" pan="-194.610" handcursor="0" roty="0.000" mode="3" stretch="1.000" tilt="35.900" rotz="0.000" clickmode="0" field="90.000" fov="8.870" startmutedmobile="0" loop="0" level="1.000" height="300">
       <source url="media/Nuestros rino.mp4"/>
     </video>
-    <lensflare type="10" alpha="80.000" id="Lensflare01" pan="-28.650" color="0xffffff" blinding="50.000" tilt="16.020"/>
+    <lensflare color="0xffffff" tilt="16.020" blinding="50.000" alpha="80.000" id="Lensflare01" pan="-28.650" type="10"/>
   </media>
-  <transition type="crossdissolve" zoomin="0" blendtime="1" zoomspeed="2" softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomafterinfov="90" zoomout="0" zoomfov="20" zoomafteroutfov="20" enabled="1"/>
-  <autorotate startloaded="0" nodefilter="" returntohorizon="0.000" noderandom="1" speed="0.100" enabled="1" nodedelay="0.00" delay="5.00" useanimation="0"/>
-  <flyintransition speed="2.50" enabled="1"/>
-  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-  <control lockedkeyboard="0" hideabout="0" rubberband="0" simulatemass="1" speedwheel="1" sensitivity="8" dblclickfullscreen="0" invertwheel="0" lockedmouse="0" lockedwheel="0" invertcontrol="1" contextfullscreen="1" contextvr="1" contextprojections="0" lockedkeyboardzoom="0"/>
+  <transition zoomin="0" zoomout="0" zoomspeed="2" enabled="1" blendtime="1" zoomafterinfov="90" zoomafteroutfov="20" blendcolor="0x000000" softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1"/>
+  <autorotate delay="5.00" nodefilter="" nodedelay="0.00" noderandom="1" enabled="1" speed="0.100" returntohorizon="0.000" useanimation="0" startloaded="0"/>
+  <flyintransition enabled="1" speed="2.50"/>
+  <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+  <control speedwheel="1" dblclickfullscreen="0" lockedkeyboardzoom="0" contextvr="1" rubberband="0" invertwheel="0" contextfullscreen="1" simulatemass="1" invertcontrol="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" hideabout="1" sensitivity="8"/>
 </panorama>
