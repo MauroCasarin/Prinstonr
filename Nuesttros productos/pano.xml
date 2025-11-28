@@ -1,38 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama appversion="6.1.13" id="node1" hideabout="1" apprev="18080">
-  <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="3313" levelbiashidpi="1.000" levelbias="0.400" overlap="1" levelingroll="0" height="3313" leveltilesize="510">
-    <level width="3313" height="3313" predecode="0" preload="0"/>
-    <level width="1656" height="1656" predecode="0" preload="0"/>
-    <level width="828" height="828" predecode="0" preload="0"/>
-    <level width="414" height="414" predecode="1" preload="1"/>
-    <preview color="0x808080" strip="1"/>
+<panorama hideabout="1" appversion="6.1.13" id="node1" apprev="18080">
+  <input overlap="1" width="3313" levelbias="0.400" levelingpitch="0" levelingroll="0" height="3313" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+    <level preload="0" predecode="0" width="3313" height="3313"/>
+    <level preload="0" predecode="0" width="1656" height="1656"/>
+    <level preload="0" predecode="0" width="828" height="828"/>
+    <level preload="1" predecode="1" width="414" height="414"/>
+    <preview strip="1" color="0x808080"/>
   </input>
   <view pannorth="0" fovmode="0">
-    <start tilt="20.8373" pan="165.464" projection="4" fov="47.418"/>
-    <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-    <min tilt="-44.5401" fovpixel="2" pan="-180"/>
-    <max tilt="44.5401" fovfisheye="360" fovstereographic="270" pan="180" fov="120"/>
+    <start pan="165.464" projection="4" fov="47.418" tilt="20.8373"/>
+    <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+    <min pan="-180" fovpixel="2" tilt="-44.5401"/>
+    <max fovfisheye="360" pan="180" fovstereographic="270" fov="120" tilt="44.5401"/>
   </view>
-  <userdata author="" longitude="" heading="0" customnodeid="" source="" copyright="" latitude="" description="" info="" title="Nuesttros productos" datetime="21/11/2025 16:55" tags="Nuesttros productos" comment="" nodeid="node1"/>
-  <hotspots width="180" height="20" wordwrap="1">
-    <label width="180" textalpha="1" textcolor="0x000000" borderalpha="1" enabled="1" background="1" bordercolor="0x000000" height="20" border="1" borderradius="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1"/>
-    <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-    <polyhotspot description="" title="" url="https://api.whatsapp.com/send/?phone=1526597702&amp;text&amp;app_absent=0" id="Poly01" target="_blank">
+  <userdata title="Nuesttros productos" latitude="" customnodeid="" heading="0" datetime="21/11/2025 16:55" description="" comment="" tags="Nuesttros productos" author="" nodeid="node1" source="" copyright="" longitude="" info=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label borderalpha="1" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" textalpha="1" bordercolor="0x000000" enabled="1" border="1" backgroundcolor="0xffffff" height="20" background="1" backgroundalpha="1"/>
+    <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098"/>
+    <polyhotspot title="" description="" target="_blank" id="Poly01" url="https://api.whatsapp.com/send/?phone=1526597702&amp;text&amp;app_absent=0">
       <polystring>-189.89/-23.88|-189.97/-25.9|-199.69/-25.97|-199.51/-23.99</polystring>
     </polyhotspot>
   </hotspots>
   <media>
-    <image width="50" tilt="-25.190" stretch="1.000" height="50" clickmode="0" rotx="0.000" roty="0.000" handcursor="0" id="Element01" pan="-199.590" rotz="-47.000" fov="2.000">
+    <image clickmode="0" pan="-199.590" stretch="1.000" width="50" roty="0.000" fov="2.000" tilt="-25.190" rotx="0.000" rotz="-47.000" id="Element01" height="50" handcursor="0">
       <source url="media/Dedo clic.svg"/>
     </image>
-    <video id="Element03" rotx="29.000" width="300" ambientlevel="0.000" tiltsize="10.000" pansize="10.000" nodechangekeep="0" pan="-194.610" handcursor="0" roty="0.000" mode="3" stretch="1.000" tilt="35.900" rotz="0.000" clickmode="0" field="90.000" fov="8.870" startmutedmobile="0" loop="0" level="1.000" height="300">
+    <video height="300" id="Element03" ambientlevel="0.000" field="90.000" width="300" level="1.000" tilt="35.900" rotz="0.000" nodechangekeep="0" clickmode="0" rotx="29.000" loop="0" tiltsize="10.000" pansize="10.000" fov="8.870" handcursor="0" mode="3" roty="0.000" stretch="1.000" pan="-194.610" startmutedmobile="0">
       <source url="media/Nuestros rino.mp4"/>
     </video>
-    <lensflare color="0xffffff" tilt="16.020" blinding="50.000" alpha="80.000" id="Lensflare01" pan="-28.650" type="10"/>
+    <video height="1280" id="Element02" ambientlevel="0.000" field="90.000" width="720" level="1.000" tilt="26.170" rotz="0.000" nodechangekeep="0" clickmode="0" rotx="26.000" loop="0" tiltsize="10.000" pansize="10.000" fov="26.256" handcursor="0" mode="1" roty="0.000" stretch="1.000" pan="-224.510" startmutedmobile="0">
+      <source url="media/Manos Birras ANIM comp.mp4"/>
+    </video>
+    <lensflare type="10" pan="-28.650" tilt="16.020" color="0xffffff" blinding="50.000" alpha="80.000" id="Lensflare01"/>
   </media>
-  <transition zoomin="0" zoomout="0" zoomspeed="2" enabled="1" blendtime="1" zoomafterinfov="90" zoomafteroutfov="20" blendcolor="0x000000" softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1"/>
-  <autorotate delay="5.00" nodefilter="" nodedelay="0.00" noderandom="1" enabled="1" speed="0.100" returntohorizon="0.000" useanimation="0" startloaded="0"/>
-  <flyintransition enabled="1" speed="2.50"/>
-  <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-  <control speedwheel="1" dblclickfullscreen="0" lockedkeyboardzoom="0" contextvr="1" rubberband="0" invertwheel="0" contextfullscreen="1" simulatemass="1" invertcontrol="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" hideabout="1" sensitivity="8"/>
+  <transition zoomspeed="2" type="crossdissolve" zoomin="0" zoomfov="20" zoomout="0" zoomoutpause="1" enabled="1" blendtime="1" softedge="0" zoomafterinfov="90" blendcolor="0x000000" zoomafteroutfov="20"/>
+  <autorotate nodedelay="0.00" startloaded="0" useanimation="0" speed="0.100" delay="5.00" enabled="1" returntohorizon="0.000" noderandom="1" nodefilter=""/>
+  <flyintransition speed="2.50" enabled="1"/>
+  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+  <control contextfullscreen="1" hideabout="1" lockedkeyboard="0" lockedkeyboardzoom="0" speedwheel="1" lockedmouse="0" dblclickfullscreen="0" simulatemass="1" lockedwheel="0" contextprojections="0" contextvr="1" sensitivity="8" invertwheel="0" invertcontrol="1" rubberband="0"/>
 </panorama>
